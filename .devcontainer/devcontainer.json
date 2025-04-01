@@ -1,0 +1,15 @@
+{
+    "name": "Windows-like Environment",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.python"
+    ],
+    "postCreateCommand": "echo 'Codespace setup complete!'",
+    "remoteUser": "vscode"
+}
